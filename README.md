@@ -1,7 +1,5 @@
 # i2c slave on PIC18F with MSSP
 
-Wow that's a lot of acronyms! 
-
 The PIC18F (and others, I'm sure), include an MSSP peripheral for acting as an I2C and SPI master or slave. For my use case, I wanted to the PIC (actually, 10 of them!) to be the i2c slave for a single STM32 MCU. Within MPLAB X IDE and the MCC plugin, you can configure this peripheral ... but the result doesn't work out of the box. 
 
 You need to do four important things:
